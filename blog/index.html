@@ -2,6 +2,7 @@
 <html lang="zh-tw"><head>
   <meta charset="utf-8">
   <title>肌肉皓皓&#39;s Blog</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -79,7 +80,7 @@
         <i class="ti-menu"></i>
       </button>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
+      <div class="collapse navbar-collapse text-center" data-aos="zoom-in-right" id="navigation">
         <div class="desktop-view">
           <ul class="navbar-nav mr-auto">
             
@@ -158,14 +159,14 @@
       <h4 class="widget-title">About Me</h4>
       
       <img src="https://jjamehaoOO.github.io/images/work_out.png" alt=""
-        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+        class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4" data-aos="flip-left">
       
       <p>某一天在youtude找讓自己更好的辦法，發現健身這件事還沒有做過，後來就找了附近評價好的健身房...</p>
-      <a href="https://jjamehaoOO.github.io/about/" class="btn btn-outline-primary">Know More</a>
+      <a href="https://jjamehaoOO.github.io/about/" class="btn btn-outline-primary" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Know More</a>
       
     </div>
     
-    <div class="widget">
+    <div class="widget" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <h4 class="widget-title">Category</h4>
       <ul class="list-unstyled">
         <li><a
@@ -177,7 +178,7 @@
       </ul>
     </div>
     
-    <div class="widget">
+    <div class="widget" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <h4 class="widget-title">Tag</h4>
       <ul class="list-inline">
         <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
@@ -187,7 +188,7 @@
       </ul>
     </div>
     
-    <div class="widget">
+    <div class="widget" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <h4 class="widget-title">Social</h4>
       <ul class="list-inline social-links">
         
@@ -405,7 +406,7 @@
 
 <footer class="text-capitalize">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="col-12 text-center mb-5">
         <a href="https://jjamehaoOO.github.io">Back to homepage</a>
         
@@ -491,6 +492,10 @@
 
 
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 
 <script>
