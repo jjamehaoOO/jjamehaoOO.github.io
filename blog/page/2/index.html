@@ -71,6 +71,7 @@
 </div>
 <!-- preloader end -->
 <!-- navigation -->
+  
 <header class="navigation">
   <div class="container">
     
@@ -393,6 +394,13 @@
 
 
 
+<script>
+$(function(){
+  $(".navbar-toggle").on("click", function () {
+  $(this).toggleClass("active");
+  });
+  })
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://kit.fontawesome.com/d60c03480c.js" crossorigin="anonymous"></script>
 <script>
